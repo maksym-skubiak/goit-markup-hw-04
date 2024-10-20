@@ -205,6 +205,9 @@ ul {
   background: #f4f4fd;
   margin-bottom: 8px;
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .features-icons {
@@ -402,9 +405,7 @@ ul {
   top: 0;
   left: 0;
   height: 100%;
-  padding-top: 40px;
-  padding-left: 32px;
-  padding-right: 32px;
+  padding: 40px 32px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
