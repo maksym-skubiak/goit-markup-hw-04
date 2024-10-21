@@ -68,7 +68,7 @@ ul {
   gap: 40px;
 }
 
-.top-list-item {
+.top-list-item:first-child .top-list-link {
   color: #404bbf;
 }
 
@@ -338,7 +338,7 @@ ul {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.team-soc-link:hover .team-soc-item {
+.team-soc-link:hover {
   background-color: #404bbf;
 }
 .team-soc-link:focus {
