@@ -146,6 +146,7 @@ ul {
   background-position: center;
   max-width: 1440px;
   background-size: cover;
+  margin: 0 auto;
 }
 
 .solution-title {
